@@ -1,3 +1,5 @@
-const CreateTodoButton = () => <button>x</button>;
+import './CreateTodoButton.css';
+
+const CreateTodoButton = () => <button className="CreateTodoButton">+</button>;
 
 export { CreateTodoButton };

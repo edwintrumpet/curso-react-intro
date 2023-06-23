@@ -1,5 +1,7 @@
+import './TodoList.css';
+
 const TodoList = ({ children }) => (
-<ul>
+<ul className="TodoList">
     { children }
 </ul>
 );
