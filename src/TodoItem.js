@@ -1,7 +1,7 @@
-const TodoItem = () => (
+const TodoItem = ({ text, completed }) => (
 <li>
     <span>V</span>
-    <p>Aprobar el curso de React.js</p>
+    <p>{text}</p>
     <span>X</span>
 </li>
 );

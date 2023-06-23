@@ -1,6 +1,6 @@
 const TodoList = ({ children }) => (
 <ul>
-    {children}
+    { children }
 </ul>
 );
 
