@@ -4,6 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,5 +26,13 @@ function App() {
     </div>
   );
 }
+
+const TodoItem = () => (
+<li>
+  <span>V</span>
+  <p>Aprobar el curso de React.js</p>
+  <span>X</span>
+</li>
+);
 
 export default App;
